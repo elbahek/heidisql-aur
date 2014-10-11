@@ -1,7 +1,7 @@
 # Maintainer: Liviu Cristian Mirea-Ghiban <contact at liviucmg dot com>
 pkgname=heidisql
 pkgver=8.3
-pkgrel=1
+pkgrel=2
 pkgdesc="A lightweight, Windows based interface for managing MySQL and Microsoft SQL databases. (uses Wine)."
 arch=(any)
 url="http://www.heidisql.com/"
@@ -15,7 +15,7 @@ source=("http://www.heidisql.com/downloads/releases/HeidiSQL_${pkgver}_Portable.
 md5sums=('0f0ab322379095b3e4b0bf835ce1f9eb'
          'df3673bc694beceb8ed6cfeace6b6c3f'
          'ea4fc6959a315ef5c2bf8e22c479e22a'
-         '29d9a9a8785a035edfa0b30b069e873d')
+         '3cdbca3164df7d3629ffc469d52e53a0')
 noextract=("HeidiSQL_${pkgver}_Portable.zip")
 
 package() {
